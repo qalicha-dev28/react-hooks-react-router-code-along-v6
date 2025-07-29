@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #007bff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.nav-link:hover {
+  background-color: #e9ecef;
+}
+
+.nav-link.active {
+  background-color: #007bff;
+  color: white;
+}
